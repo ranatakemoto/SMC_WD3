@@ -1,2 +1,2 @@
 # SMC_WD3
-A rep to hold all the in-class work from WebDesign3 class in SMC
+A repo to hold all the in-class code from WebDesign3 class at SMC
