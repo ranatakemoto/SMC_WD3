@@ -11,15 +11,9 @@ main {
 }
 
 .col-12 {
-    padding: 50px 10px;
-}
-
-#col1 {
-    background: url("https://www.google.com/search?q=switch&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiEvOjflMXkAhXeKDQIHRF2BYgQ_AUIFCgD&biw=1366&bih=572#imgrc=-5RFuEe9LfzVbM:");
-}
-
-@media(min-width:768px){
-    #col1 {
-        background-color: yellow;
-    }
+    height: 200px;
+    background-size: auto 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
