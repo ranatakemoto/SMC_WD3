@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Serif&display=swap');
+
+body {
+    background-color:rgb(43, 43, 43);
+}
+
+nav a {
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    background-color: black;
+}
+
+.logo {
+    width: 80px;
+}
+
+.jumbotron {
+    position: relative;
+    background: url(https://busites_www.s3.amazonaws.com/acdccom/content/banners/4.jpg);
+    background-size: cover;
+}
+
+.jumbotron > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(105, 105, 105, 0.637);
+    z-index: 1;
+}
+
+.jumbotron > .inner {
+    position: relative;
+    z-index: 2;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.col-text {
+    color: rgb(185, 185, 185);
+}
