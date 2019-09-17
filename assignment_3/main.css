@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Serif&display=swap');
 
 body {
-    background-color:rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
 }
 
 nav a {
@@ -23,35 +23,51 @@ nav {
     background-size: cover;
 }
 
-.jumbotron > .overlay {
+.jumbotron>.overlay {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(105, 105, 105, 0.637);
+    background-color: rgba(83, 83, 83, 0.705);
     z-index: 1;
 }
 
-.jumbotron > .inner {
+.jumbotron>.inner {
     position: relative;
     z-index: 2;
     padding: 40px;
 }
 
-h1 {
+h1, h2{
+    font-family: 'Merriweather', serif;
+}
+
+a {
     font-family: 'Merriweather', serif;
 }
 
 p {
     font-family: 'Merriweather', serif;
-font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
-h3 {
+h3, h5 {
     font-family: 'Merriweather', serif;
+    font-size: 18px;
 }
 
 .col-text {
     color: rgb(185, 185, 185);
+}
+
+.album_image {
+    width: 130px;
+}
+
+.media-body {
+    color: rgb(185, 185, 185);
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
 }
