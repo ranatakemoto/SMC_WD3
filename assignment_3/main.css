@@ -71,3 +71,37 @@ h3, h5 {
     font-family: 'PT Serif', serif;
     font-size: 14px;
 }
+
+tbody{
+    background-color: rgb(43, 43, 43);
+}
+
+@media(min-width:992px){
+    .media {
+        width: 400px;
+        display: inline-block;
+    }
+
+    hr {
+        display: none;
+    }
+
+    ul {
+        text-align: center;
+        width: 100%;
+    }
+
+    .media-body {
+        text-align: left;
+    }
+
+    .table {
+        width: 990px;
+        margin: auto;
+    }
+
+    .album_image {
+        width: 160px;
+    }
+
+}
