@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Hind+Madurai&display=swap');
+
+body {
+    background-color: rgb(243, 217, 182);
+}
+
+h2 {
+    font-family: 'Sigmar One', cursive;
+    margin: 50px 30px;
+    color: rgb(131, 53, 53);
+}
+
+h4 {
+    font-family: 'Sigmar One', cursive;
+}
+
+.main_container {
+    background-color: white;
+    /* width: 280px; */
+    /* margin: 50px auto; */
+}
+
+form {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: rgb(131, 53, 53);
+    border: 1px solid rgb(131, 53, 53);
+}
+
+@media(min-width:1000px) {
+    .main_container {
+        width: 871px;
+        margin: auto;
+    }
+}
