@@ -22,6 +22,6 @@ $(document).ready(function(){
     }
 
     function addStuff(){
-        $("#mainTitle").append("<span style='color: red'>Ha ha ha</span>");s
+        $("#mainTitle").append("<span style='color: red'>Ha ha ha</span>");
     }
 }); // end ready
