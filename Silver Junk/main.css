@@ -1,52 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Grenze|Josefin+Sans|PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Be+Vietnam|Josefin+Sans|Quicksand|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Josefin+Sans|Quicksand|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|DM+Serif+Display|Grenze|Inknut+Antiqua|Josefin+Sans|PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Be+Vietnam|DM+Serif+Display|Federo|Grenze|Inknut+Antiqua|Josefin+Sans|PT+Serif&display=swap');
 
+
+/* body {
+    background-color: rgb(37, 37, 37);
+} */
+
+
+/* ALERT */
 .alert {
     margin-bottom: 0;
 }
 
+/* NAV BAR */
 .navbar {
-    background-color: rgb(26, 26, 26); 
+    background-color: rgb(37, 37, 37);
 }
 
 .navbar li a {
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     color: rgb(230, 230, 230);
     padding-bottom: 0;
-    font-family: 'Grenze', serif;
-    font-family: 'Cinzel', serif;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
 }
 .navbar li a:hover {
-    color: rgb(255, 196, 0);
+    color: rgb(252, 101, 0);
 }
 
 .navbar-brand {
-    /* font-family: 'Grenze', serif; */
     font-family: 'Grenze', serif;
-font-family: 'Cinzel', serif;
-    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
     color: white;
     transition: transform 1s;
 }
 .navbar-brand:hover {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
     /* transform: skewX(20px); */
     color: white;
 }
 
 .active-link {
-    color: rgb(252, 122, 0);
+    color: rgb(252, 101, 0);
 }
 
+/* JUMBOTRON */
 .jumbotron {
     position: relative;
     background: url(https://i.etsystatic.com/19685976/r/il/63f9c8/1940899749/il_fullxfull.1940899749_krg6.jpg);
     background-size: cover;
 }
+
 .jumbotron>.overlay {
     position: absolute;
     top: 0;
@@ -56,28 +74,99 @@ font-family: 'Cinzel', serif;
     background-image: linear-gradient(to right, rgba(77, 77, 77, 0.603), rgba(100, 100, 100, 0.418));
     z-index: 1;
 }
+
 .jumbotron>.inner {
     position: relative;
     z-index: 2;
-    padding: 40px;
+    padding: 40px 35px;
 }
-.jumbotron h1{
+
+.jumbotron h1 {
     font-family: 'Grenze', serif;
-font-family: 'PT Serif', serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Anton', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(37, 37, 37);
 }
+
 .jumbotron p {
+    color: rgb(245, 245, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    border-radius: 0;
     font-family: 'Grenze', serif;
-    font-family: 'Cinzel', serif;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Federo', sans-serif;
+    background-color: rgb(252, 101, 0);
+    border: 1px solid rgb(252, 101, 0);
+}
+.btn:hover {
+    background-color: rgb(255, 152, 83);
+    border: 1px solid rgb(255, 152, 83);
 }
 
-.spaceHolder {
-    width: 100%;
-    height: 600px;
+/* SPOTLIGHT */
+.sp-container h2{
+    font-family: 'Grenze', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(37, 37, 37);
+    font-size: 25px;
+    text-align: center;
 }
 
+.sp-container img {
+    width: 240px;
+    display: block;
+}
+
+.sp-container h3 {
+    color: rgb(37, 37, 37);
+    font-family: 'Grenze', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Federo', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sp-container .btn {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.sp-container p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+/* CAROUSEL */
 .superdiv {
     width: 100%;
     background-color: bisque;
@@ -88,18 +177,40 @@ font-family: 'Anton', sans-serif;
     width: 70%;
     margin: 0 auto;
 }
+
 .carousel-caption {
     background-color: rgba(49, 49, 49, 0.5);
     width: 500px;
 }
 
-.btn {
-    background-color: rgb(255, 196, 0);
-    border-radius: 0;
-    border: 1px solid rgb(255, 196, 0);
+
+
+/* JUMBOTRON Breakpoints*/
+@media (min-width:768px){
+    .jumbotron {
+        background-position: 30px 50px;
+    }
 }
-.btn:hover {
-    background-color: rgb(77, 77, 77);
-    border: 1px solid rgb(77, 77, 77);
+@media (min-width:1100px){
+    .jumbotron {
+        background-position: 61px -25px;
+    }
+}
+@media (min-width:1400px){
+    .jumbotron {
+        background-position: 61px -130px;
+    }
+}
+/* end JUMBOTRON */
+
+@media(min-width:992px){
+    .jumbotron>.inner {
+        padding-right:250px;
+    }
 }
 
+@media(min-width:1200px){
+    .jumbotron>.inner {
+        padding-right:450px;
+    }
+}
