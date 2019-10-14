@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Grenze|Josefin+Sans|PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Barlow|Be+Vietnam|Josefin+Sans|Quicksand|Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Josefin+Sans|Quicksand|Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|DM+Serif+Display|Grenze|Inknut+Antiqua|Josefin+Sans|PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Be+Vietnam|DM+Serif+Display|Federo|Grenze|Inknut+Antiqua|Josefin+Sans|PT+Serif&display=swap');
 
@@ -28,10 +26,7 @@
     color: rgb(230, 230, 230);
     padding-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-family: 'Be Vietnam', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-    font-family: 'Josefin Sans', sans-serif; */
+    letter-spacing: 1px;
 }
 .navbar li a:hover {
     color: rgb(252, 101, 0);
@@ -47,6 +42,7 @@
     font-size: 32px;
     color: white;
     transition: transform 1s;
+    letter-spacing: 1px;
 }
 .navbar-brand:hover {
     transform: rotate(-10deg);
@@ -71,7 +67,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to right, rgba(77, 77, 77, 0.603), rgba(100, 100, 100, 0.418));
+    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.637), rgba(112, 112, 112, 0.342));
     z-index: 1;
 }
 
@@ -202,6 +198,12 @@
     }
 }
 /* end JUMBOTRON */
+
+@media(max-width:767px){
+    .navbar-brand {
+        font-size: 26px;
+    }
+}
 
 @media(min-width:992px){
     .jumbotron>.inner {
