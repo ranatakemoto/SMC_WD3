@@ -104,10 +104,12 @@
     font-family: 'Federo', sans-serif;
     background-color: rgb(252, 101, 0);
     border: 1px solid rgb(252, 101, 0);
+    color: white;
 }
 .btn:hover {
     background-color: rgb(255, 152, 83);
     border: 1px solid rgb(255, 152, 83);
+    color: white;
 }
 
 /* SPOTLIGHT */
@@ -155,28 +157,100 @@
     width: 90%;
 }
 
-
-
-
-
-
-
-
-/* CAROUSEL */
-.superdiv {
-    width: 100%;
-    background-color: bisque;
-    position: relative;
+.sp-container .btn {
+    background-color: rgb(20, 196, 219);
+    border: 1px solid rgb(20, 196, 219);
+    color: white;
+}
+.sp-container .btn:hover {
+    background-color: rgb(129, 218, 230);
+    border: 1px solid rgb(129, 218, 230);
+    color: white;
 }
 
-.carousel {
-    width: 70%;
+/* CAROUSEL */
+.carousel img {
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h1{
+    font-family: 'Grenze', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.carousel-caption p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel .btn {
+    background-color: rgba(65, 65, 65, 0.596);
+    border: 2px solid white;
+    width: 150px;
+}
+.carousel .btn:hover {
+    background-color: rgba(51, 51, 51, 0.911);
+
+}
+
+#carousel1 .carousel-caption{
+    top: 0;
+}
+#carousel2 .carousel-caption {
+    bottom: 30;
+}
+#carousel3 .carousel-caption {
+    top: 0;
+}
+
+/* SUPERDIV */
+.superdiv {
+    width: 90%;
     margin: 0 auto;
 }
 
-.carousel-caption {
-    background-color: rgba(49, 49, 49, 0.5);
-    width: 500px;
+#col1 img {
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+}
+
+.about-caption {
+    position: relative;
+    color: white;
+}
+
+.about-caption h3{
+    font-family: 'Grenze', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+}
+
+#lego {
+    font-family: 'Grenze', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Federo', sans-serif;
+    color: yellow;
+}
+
+.about-caption p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -205,14 +279,39 @@
     }
 }
 
+
+/* MAIN BREKPOINTS */
+@media(min-width:768px){
+    .navbar-brand {
+        font-size: 26px;
+    }
+    .carousel img{
+        height: 350px;
+    }
+}
 @media(min-width:992px){
     .jumbotron>.inner {
         padding-right:250px;
     }
+    .carousel img{
+        height: 400px;
+    }
+    .carousel-caption h1{
+        font-size: 38px;
+    }
 }
-
 @media(min-width:1200px){
     .jumbotron>.inner {
         padding-right:450px;
+    }
+
+    #col1 img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-caption {
+        width: 300px;
+        margin: 200px auto;
     }
 }
