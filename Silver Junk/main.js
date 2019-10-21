@@ -11,8 +11,6 @@ $(document).ready(function () {
             // if(true){
                 $('#myModal').modal('hide');
             // }
-            $('.alert').addClass('show');
-            $('.alert').alert();
     });
 });
 
@@ -21,9 +19,12 @@ $(window).on('load', function(){
         interval: 2000
     });
 
-    $('#myModal').modal({
-        // backdrop : 'static'
-        backdrop : false,
-        keyboard : false
-    });
+    $('.alert').addClass('show');
+            $('.alert').alert();
+
+     $('#myModal').modal({
+         // backdrop : 'static'
+         backdrop : false,
+         keyboard : false
+     });
 });
