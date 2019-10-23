@@ -1,30 +1,46 @@
 $(document).ready(function () {
-   
+
 
     $('#myCarousel').on('slide.bs.carousel', function (e) {
         console.log(e);
     });
 
 
-    $('.js-modal-close').click(function(){
+    $('.js-modal-close').click(function () {
         // if($('#form').is(':valid')){}
-            // if(true){
-                $('#myModal').modal('hide');
-            // }
+        $('#myModal').modal('hide');
+        $('.alert').addClass('show');
+        $('.alert').alert();
     });
 });
 
-$(window).on('load', function(){
+$(window).on('load', function () {
     $('#myCarousel').carousel({
         interval: 2000
     });
 
-    $('.alert').addClass('show');
-            $('.alert').alert();
+    $('#myModal').modal({
+        // backdrop : 'static'
+        backdrop: false
+    });
+});
 
-     $('#myModal').modal({
-         // backdrop : 'static'
-         backdrop : false,
-         keyboard : false
-     });
+$('input').blur(function () {
+
+
+    if ($(this).val() !== "") {
+        var form = $(this).parents('form');
+        console.log($("[type=submit]"));
+        $("[type=submit]").removeClass('disabled').removeAttr('disabled').data('dismiss', 'modal');
+    }
+});
+
+$('.modal form').submit(function (e) {
+    e.preventDefault();
+
+    if (true) {
+        $('#myModal').modal('hide');
+        $('.alert').addClass('show');
+        $('.alert').alert();
+    }
 });
