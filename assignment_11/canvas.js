@@ -71,5 +71,11 @@ ctx.strokeText("Hello World", 65, 160);
         img.onload = function () {
             context.drawImage(img, 50, 50, 200, 200);
         }
-        img.src = "https://www.charlottefive.com/wp-content/uploads/2019/07/TwoScoops2.jpg";
+        img.src = 'https://www.charlottefive.com/wp-content/uploads/2019/07/TwoScoops2.jpg';
+
+        // const canvas = document.getElementById("myCanvas");
+        // const ctx = canvas.getContext('2d');
+        // var img = new Image();
+        // img.src = 'https://www.charlottefive.com/wp-content/uploads/2019/07/TwoScoops2.jpg';
+        // ctx.drawImage(50, 50, 200, 200);
 
