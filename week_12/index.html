@@ -22,7 +22,24 @@
         Please use a better browser!
     </canvas>
 
+    <div class="scoreCounter">Score:<span id="gameScore"></span></div>
+
     <button id="changeColor">CLICK ME</button>
+    <button id="hueButton" onclick="randColor()">Ball Colors</button>
+
+    <form action="" method="POST">
+        <label for="redComp">Red:</label>
+        <input type="range" min="0" max="255" id="redComp">
+        <output for="redComp"></output>
+        <br/>
+        <label for="greenComp">Greeb:</label>
+        <input type="range" min="0" max="255" id="redComp">
+        <output for="greenComp"></output>
+        <br/>
+        <label for="blueComp">Blue:</label>
+        <input type="range" min="0" max="255" id="redComp">
+        <output for="blueComp"></output>
+    </form>
 
 
     <script src="canvas.js"></script>
