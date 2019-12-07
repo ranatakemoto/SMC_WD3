@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+/******************************************
+HEADER 
+*******************************************/
+
+header {
+    position: sticky;
+    top: -55px;
+    z-index: 90;
+    background-color: white;
+    box-shadow: 1px 3px 4px rgba(68, 68, 68, 0.055);
+    padding-top: 15px;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'Indie Flower', cursive;
+    font-size: 29px;
+    color: rgb(77, 77, 77);
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+.co-btn {
+    background-color: rgba(100, 159, 235, 0.377);
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    display: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+.co-btn:hover {
+    background-color: bisque;
+}
+
+/******************************************
+NAV
+*******************************************/
+nav {
+    width: 280px;
+}
+
+.pages a {
+    color: rgb(77, 77, 77);
+    font-family: 'Sulphur Point', sans-serif;
+    padding-bottom: 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.pages a:hover {
+    text-decoration: none;
+    color: rgba(100, 148, 237, 0.61);
+}
+
+nav .active {
+    color: cornflowerblue;
+}
+
+
+/******************************************
+CAROUSEL
+*******************************************/
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel img {
+    height: 300px;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h3 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-shadow: 2px -1px 7px white;
+}
+
+#carousel3 .carousel-caption {
+    color: rgb(44, 44, 44);
+}
+
+.carousel .btn {
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.carousel .btn:hover {
+    background-color: white;
+    color: rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+/******************************************
+NEW ARRIVALS
+*******************************************/
+.line {
+    display: block;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    color: rgb(77, 77, 77);
+}
+
+#star {
+    position: absolute;
+    width: 50px;
+    right: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hat {
+    width: 250px;
+    display: block;
+}
+
+.p_name {
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+}
+
+.sm-btn {
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 250px;
+    color: white;
+    display: block;
+    border-radius: 100px;
+    background-color: rgb(252, 172, 185);
+}
+
+.sm-btn:hover {
+    background-color: rgb(255, 205, 145);
+    color: white;
+}
+
+.hat_768 {
+    display: none;
+}
+
+
+/******************************************
+BACK TO TOP
+*******************************************/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(100, 148, 237, 0.644);
+    color: white;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+#myBtn:hover {
+    background-color: rgba(100, 148, 237);
+}
+
+/******************************************
+ABOUT 
+*******************************************/
+.about_img {
+    display: none;
+}
+
+.about_p {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(56, 56, 56);
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+
+/******************************************
+FOOTER 
+*******************************************/
+footer {
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    background-color: antiquewhite;
+}
+
+.copyright {
+    font-size: 11px;
+    color: rgb(143, 143, 143);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+.href {
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+.href:hover {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+.number {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.sns {
+    background-color: white;
+    border-radius: 100px;
+    border: 1px solid grey;
+    padding: 28px 28px;
+    color: rgb(71, 71, 71);
+}
+.sns:hover {
+    background-color: rgb(155, 190, 255);
+    text-decoration: none;
+    color: white;
+}
+
+.sns2 {
+    padding: 28px 25px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+/******************** MIN-WIDTH: 768PX ********************/
+@media(min-width:768px) {
+    header {
+        top: -65px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    #scart {
+        display: none;
+    }
+
+    .co-btn {
+        display: block;
+    }
+
+    .carousel img {
+        height: 400px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        height: 100px;
+    }
+
+    #star {
+        width: 80px;
+        right: 30px;
+        margin-top: -30px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .hat_768 {
+        display: block;
+    }
+
+    .hat_768 img {
+        width: 240px;
+    }
+
+    .hat {
+        width: 240px;
+    }
+
+    .sm-btn {
+        width: 300px;
+    }
+
+    .about {
+        width: 620px;
+    }
+
+    .about_p {
+        line-height: 30px;
+    }
+}
+
+/******************** MIN-WIDTH: 1024PX ********************/
+@media(min-width:1024px) {
+    .logo {
+        animation: 2s logo forwards;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .co-btn {
+        animation: fadein 2s forwards;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    nav {
+        width: 330px;
+    }
+
+    .carousel img {
+        height: 500px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .line {
+        width: 80%;
+        display: block;
+        height: 120px;
+    }
+
+    #star {
+        width: 100px;
+        margin-top: -40px;
+    }
+
+    .about {
+        width: 650px;
+    }
+
+    .about_p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+}
+
+/******************** MIN-WIDTH: 1440PX ********************/
+@media(min-width:1440px) {
+    .carousel img {
+        height: 600px;
+    }
+}
+
+
+
+
+/************************************************************************
+SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE SHOP PAGE
+*************************************************************************/
+
+#clicks {
+    position: relative;
+    background-color: rgba(245, 109, 91, 0.877);
+    border-radius: 100px;
+    color: white;
+    padding: 3px 10px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.product {
+    margin: 0 auto;
+    display: block;
+}
+
+.add-btn {
+    margin: 20px auto;
+    display: block;
+    font-family: 'Sulphur Point', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 250px;
+    color: white;
+    display: block;
+    border-radius: 100px;
+    background-color: rgb(252, 172, 185);
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: rgb(255, 218, 170);
+    color: white;
+}
+
+.show-cart li {
+    display: flex;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.modal-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    color: rgb(77, 77, 77);
+    margin-left: 14px;
+}
+
+.modal-body {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+}
+
+.table td,
+.table th {
+    border-top: none;
+}
+
+.pm-btn {
+    background-color: rgba(100, 148, 237, 0.836);
+    border-radius: 100px;
+    color: white;
+}
+.pm-btn:hover {
+    background-color: rgba(100, 148, 237, 0.562);
+    color: white;
+}
+
+.del-btn {
+    color: rgba(245, 109, 91, 0.877);
+    font-size: 20px;
+}
+.del-btn:hover {
+    color: rgba(245, 109, 91, 0.5);
+}
+
+.cl-btn {
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-radius: 0px;
+    color: grey;
+    font-family: 'Sulphur Point', sans-serif;
+    padding: 1px;
+    margin-right: 20px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.or-btn {
+    background-color: rgba(100, 148, 237, 0.836);
+    border-radius: 100px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.or-btn a {
+    color:white;
+    text-decoration: none;
+}
+.or-btn:hover {
+    background-color: rgb(255, 205, 145);
+}
+
+/******************** MIN-WIDTH: 768PX ********************/
+
+@media (min-width:768px) {
+    #clicks {
+        margin-left: -20px;
+        margin-top: -30px;
+        animation: fadein 3s forwards;
+    }
+}
+
+
+
+/************************************************************************
+CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE
+*************************************************************************/
+
+#clicks2 {
+    position: relative;
+    background-color: cornflowerblue;
+    border-radius: 100px;
+    color: white;
+    padding: 3px 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.c-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.del-btn2 {
+    color: rgba(245, 109, 91, 0.877);
+    font-size: 20px;
+    padding: 0px;
+}
+
+.c-name {
+    padding-left: 0px;
+}
+
+.co-title {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 23px;
+    color: rgb(71, 71, 71);
+    letter-spacing: 1px;
+}
+
+label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+    letter-spacing: 0.3px;
+}
+
+#submit {
+    background-color: cornflowerblue;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.7px;
+    margin-bottom: 40px;
+}
+#submit:disabled {
+    background-color: rgba(100, 148, 237, 0.507);
+}
+
+
+/************************************************************************
+CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE CHECKOUT PAGE
+*************************************************************************/
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+}
+
+.story img {
+    border-radius: 10px;
+}
+
+.story img:hover {
+    filter:opacity(70%);
+}
+
+.story p {
+    font-family: 'Sulphur Point', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    color: rgb(250, 142, 160);
+}
+.story h4 {
+    font-family: 'Sulphur Point', sans-serif;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.story .date {
+    font-size: 11px;
+    color: rgb(143, 143, 143);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+@media(min-width:1200px) {
+    .s-container {
+        width: 1100px !important;
+        margin: 0px auto;
+    }
+    .story img {
+        width: 290px;
+    }
+}
+
