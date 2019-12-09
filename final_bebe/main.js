@@ -3,6 +3,18 @@ $(document).ready(function () {
     $('#myCarousel').on('slide.bs.carousel', function (e) {
         console.log(e);
     });
+
+    $(".lm-btn").click(function(){
+      $(".hidden").toggleClass("show");
+      
+      if ($(".lm-btn").hasClass("hidden")) {
+        $(this).text("Load More");
+      }
+      else if ($(".lm-btn").hasClass("show")) {
+        $(this).text("Load Less")
+      }
+    });
+
 });
 
 $(window).on('load', function () {
@@ -243,3 +255,4 @@ $('.show-cart').on("change", ".item-count", function(event) {
 });
 
 displayCart();
+
