@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+
+
+    <title>BEBE</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="blog-header pt-3 mt-3">
+        <div class="container">
+            <div class="row flex-nowrap justify-content-between align-items-center ">
+                <div class="col-4 pt-1">
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo logo" href="../index.html">BEBE</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <button type="button" data-toggle="modal" data-target="#cart" id="scart"><img src="../img/cart.jpg"
+                            alt="shopping cart" width="80px" data-toggle="modal" data-target="#cart"></button>
+                    <button type="button" class="btn co-btn" data-toggle="modal" data-target="#cart"
+                        class="co-btn">Checkout</button>
+                    <a id="clicks" class="total-count">0</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="py-1 mb-2">
+            <nav class="nav d-flex justify-content-between mx-auto pages">
+                <a class="p-2" href="../index.html">Home</a>
+                <a class="p-2" href="shop.html">Shop</a>
+                <a class="p-2" href="blog.html">Blog</a>
+                <a class="p-2 active" href="#">FAQ</a>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mb-5 pb-5">
+            <form>
+                <div class="row mb-4 mx-md-5 pt-lg-5 mt-5">
+                    <div class="form-group col-12 col-md-9">
+                        <input id="search" type="email" placeholder="How can we help you?"
+                            class="form-control form-control-underlined">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <button type="submit" class="btn rounded-pill btn-block s-btn">Search</button>
+                    </div>
+                </div>
+            </form>
+            <div class="row mt-md-3 mt-lg-5">
+                <div class="col-lg-4">
+                    <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
+                        <a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1"
+                            aria-selected="true">
+                            <i class="mdi mdi-help-circle"></i> Frequently Asked Questions
+                        </a>
+                        <a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2"
+                            aria-selected="false">
+                            <i class="mdi mdi-account"></i> Profile
+                        </a>
+                        <a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3"
+                            aria-selected="false">
+                            <i class="mdi mdi-account-settings"></i> Shipping
+                        </a>
+                        <a href="#tab5" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab5"
+                            aria-selected="false">
+                            <i class="mdi mdi-coin"></i> Transactions
+                        </a>
+                        <a href="#tab6" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab6"
+                            aria-selected="false">
+                            <i class="mdi mdi-help"></i> General help
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content" id="faq-tab-content">
+                        <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                            <div class="accordion" id="accordion-tab-1">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-1-content-1" aria-expanded="false"
+                                                aria-controls="accordion-tab-1-content-1">Can I buy BEBE products from
+                                                BEBE website?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-1-content-1"
+                                        aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>Our on-line shop by internet is available only for United States
+                                                residents and not for the residents out of United States at this moment
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-2">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-1-content-2" aria-expanded="false"
+                                                aria-controls="accordion-tab-1-content-2">Please give us the information
+                                                of sizes of your products.</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-2"
+                                        aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>Please refer to the size tables of our products as per attached.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-3">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-1-content-3" aria-expanded="false"
+                                                aria-controls="accordion-tab-1-content-3">Can we purchase all products
+                                                via your online shop?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-3"
+                                        aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>At present we offer a limited number of products on our online store but
+                                                will be adding more soon. We are sorry for any inconvenience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-1-heading-4">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-1-content-4" aria-expanded="false"
+                                                aria-controls="accordion-tab-1-content-4">What are your care
+                                                instructions?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-1-content-4"
+                                        aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
+                                        <div class="card-body">
+                                            <p>Other than a few exceptions all products come with care instruction
+                                                labels using symbols for give washing and drying recommendations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="tab2">
+                            <div class="accordion" id="accordion-tab-2">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-2-content-1" aria-expanded="false"
+                                                aria-controls="accordion-tab-2-content-1">How can I change my
+                                                password?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-2-content-1"
+                                        aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
+                                        <div class="card-body">
+                                            <p>1. Log into your onlne account.<br />
+                                                2. You will be taken to a page that lets you change your password.<br />
+                                                3. Once complete, you will receive an email letting you know that your
+                                                password has been changed.<br />
+                                                4. Additionally, you can always change your password by going to “Your
+                                                Account” and clicking on “Account Settings.”<br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-4">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-2-content-4" aria-expanded="false"
+                                                aria-controls="accordion-tab-2-content-4">To use your address
+                                                book</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-4"
+                                        aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
+                                        <div class="card-body">
+                                            <p>You can add up to 30 shipping addresses during checkout and we save them
+                                                for your future use in shopping.
+
+                                                You can also add or edit shipping addresses in your account settings.
+                                                For instructions, see the topic, "To add or change your information,"
+                                                above.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
+                            <div class="accordion" id="accordion-tab-3">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-3-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-3-content-1" aria-expanded="false"
+                                                aria-controls="accordion-tab-3-content-1">How can I track my
+                                                order?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-3-content-1"
+                                        aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+                                        <div class="card-body">
+                                            <p>We will send you a FedEx tracking number once your order is shipped. You
+                                                may then track your order using FedEx's tracking service, or you can
+                                                contact us directly if you prefer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-3-heading-2">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-3-content-2" aria-expanded="false"
+                                                aria-controls="accordion-tab-3-content-2">Do you offer a gift-wrapping
+                                                service?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-3-content-2"
+                                        aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+                                        <div class="card-body">
+                                            <p>Yes, we do offer gift-wrapping at present.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-3-heading-3">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-3-content-3" aria-expanded="false"
+                                                aria-controls="accordion-tab-3-content-3">Which countries does BEBE
+                                                deliver ship to?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-3-content-3"
+                                        aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+                                        <div class="card-body">
+                                            <p>We currently ship only to the United States using FedEx.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-3-heading-4">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-3-content-4" aria-expanded="false"
+                                                aria-controls="accordion-tab-3-content-4">What are your delivery
+                                                charges?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-3-content-4"
+                                        aria-labelledby="accordion-tab-3-heading-4" data-parent="#accordion-tab-3">
+                                        <div class="card-body">
+                                            <p>We offer free delivery for orders above $100(including tax), there is a
+                                                fixed shipping charge of $5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="tab5">
+                            <div class="accordion" id="accordion-tab-5">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-5-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-5-content-1" aria-expanded="false"
+                                                aria-controls="accordion-tab-5-content-1">How can I pay for my
+                                                orders?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-5-content-1"
+                                        aria-labelledby="accordion-tab-5-heading-1" data-parent="#accordion-tab-5">
+                                        <div class="card-body">
+                                            <p>We can only accept payment via credit or debit card. We accept
+                                                <strong>VISA and
+                                                    MasterCard</strong>. Please be reminded that the listed price does
+                                                not include
+                                                VAT or import duties. These charges are to be met by the customer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-5-heading-2">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-5-content-2" aria-expanded="false"
+                                                aria-controls="accordion-tab-5-content-2">Can I return or exchange
+                                                products?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-5-content-2"
+                                        aria-labelledby="accordion-tab-5-heading-2" data-parent="#accordion-tab-5">
+                                        <div class="card-body">
+                                            <p>All sales are final and returns or exchanges can be accepted only if the
+                                                product has defects. We cannot accept returns or exchanges if you have
+                                                simply changed your mind about the purchase. Please contact us if you
+                                                have any queries.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="tab6">
+                            <div class="accordion" id="accordion-tab-6">
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-6-heading-1">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-6-content-1" aria-expanded="false"
+                                                aria-controls="accordion-tab-6-content-1">Returning or exchanging items
+                                                bought online</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-6-content-1"
+                                        aria-labelledby="accordion-tab-6-heading-1" data-parent="#accordion-tab-6">
+                                        <div class="card-body">
+                                            <p>We hope you love what you ordered. But in case you don't—perhaps it's a
+                                                little too big or the style just isn't you—we'll send you a new size,
+                                                color, or style, or issue you a quick refund. Returns and exchanges are
+                                                free when you use our prepaid return shipping label or when you return
+                                                in store. You have up to 45 days to return items purchased at Gap, Old
+                                                Navy and Banana Republic. Items purchased from Athleta and Hill City may
+                                                be returned at any time. Full details of all our return polices can be
+                                                found on our <a href="#">Return Policies’ page.</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-6-heading-2">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-6-content-2" aria-expanded="false"
+                                                aria-controls="accordion-tab-6-content-2">How to use the shopping
+                                                bad.</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-6-content-2"
+                                        aria-labelledby="accordion-tab-6-heading-2" data-parent="#accordion-tab-6">
+                                        <div class="card-body">
+                                            <p>Your shopping bag can hold items you want to purchase now as well as
+                                                items you're still thinking about.
+
+                                                When you add an item to your shopping bag, it's briefly displayed in the
+                                                top right corner of the website. As you add more items, the total number
+                                                you've selected appears in that same spot.
+                                                If you use the same computer and have cookies enabled, you don't have to
+                                                have an online account to see the items in your shopping bag. However,
+                                                to access your bag from another computer, you must be signed in to your
+                                                account. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="accordion-tab-6-heading-3">
+                                        <h5>
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#accordion-tab-6-content-3" aria-expanded="false"
+                                                aria-controls="accordion-tab-6-content-3">If the total is less than the
+                                                gift card's value?</button>
+                                        </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-6-content-3"
+                                        aria-labelledby="accordion-tab-6-heading-3" data-parent="#accordion-tab-6">
+                                        <div class="card-body">
+                                            <p>When you use a gift card, we charge the card as soon as you place your
+                                                order. If your purchase total is more than the value of your gift card,
+                                                you can use another payment method to pay for the difference.
+
+                                                If your purchase total is less than the gift card's value, the gift card
+                                                carries that remaining balance until you use it another time. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- BACK TO TOP -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+    <!-- MODAL -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CART</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div class="text-right pr-1 pr-md-3 pr-lg-5">Total price: $ <span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    <button class="clear-cart btn cl-btn">Clear Cart</button>
+                    <button type="button" class="btn or-btn py-2"><a href="checkout.html" target="_blank">Order
+                            Now</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 col-md-4 text-center text-md-left mt-md-4">
+
+                    <div class="py-0">
+                        <p class="footer-links">
+                            <a class="text-dark" href="../index.html">Home</a>
+                            <span class="text-grey">|</span>
+                            <a class="text-dark" href="blog.html">Blog</a>
+                            <span class="text-grey">|</span>
+                            <a class="text-dark" href="shop.html">Shop</a>
+                            <span class="text-grey">|</span>
+                            <a class="text-dark" href="#">FAQ</a>
+                        </p>
+                        <a href="#" class="href">Subscribe to our news letter</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-left mt-5 mt-md-3">
+                    <div class="py-2">
+                        <a class="number href" href="#">
+                            <phone>(123)456-7890</phone>
+                        </a>
+                        <br />
+                        <br />
+                        <a class="href" href="#">DieSachbearbeiter
+                            Choriner Straße 49
+                            10435 Santa Monica</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-left mb-3">
+                    <h4 class="text-dark mt-5 mt-md-3">Follow us</h4>
+                    <div class="row mt-5 mx-lg-3">
+                        <div class="col-4"><a href="#" class="sns">FB</a></div>
+                        <div class="col-4"><a href="#" class="sns sns2">TW</a></div>
+                        <div class="col-4"><a href="#" class="sns sns2">INS</a></div>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mt-3">
+                    <p class="copyright">Copyright© bebe.,Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="../main.js"></script>
+
+</body>
+
+</html>
